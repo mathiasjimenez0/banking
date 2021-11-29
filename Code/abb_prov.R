@@ -1,0 +1,112 @@
+# abb_prov <- function(x){
+#   x$province[which(x$province == "Ontario")] <- "ON"
+#   x$province[which(x$province == "Alberta")] <- "AB"
+#   x$province[which(x$province == "Manitoba")] <- "MB"
+#   x$province[which(x$province == "British Columbia")] <- "BC"
+#   x$province[which(x$province == "New Brunswick")] <- "NB"
+#   x$province[which(x$province == "Ontario")] <- "ON"
+#   x$province[which(x$province == "Newfoundland")] <- "NL"
+#   x$province[which(x$province == "Nova Scotia")] <- "NS"
+#   x$province[which(x$province == "North Western Territories")] <- "NT"
+#   x$province[which(x$province == "Prince Edward Island")] <- "PE"
+#   x$province[which(x$province == "Quebec")] <- "QC"
+#   x$province[which(x$province == "Saskatchewan")] <- "SK"
+#   x$province[which(x$province == "Yukon")] <- "YT"
+#   
+#   return(x)
+  
+  
+  if (1 %in% aux){
+    imuni$province[which(imuni$province == "Ontario")] <- "ON"
+    imuni$province[which(imuni$province == "Alberta")] <- "AB"
+    imuni$province[which(imuni$province == "Manitoba")] <- "MB"
+    imuni$province[which(imuni$province == "British Columbia")] <- "BC"
+    imuni$province[which(imuni$province == "New Brunswick")] <- "NB"
+    imuni$province[which(imuni$province == "Ontario")] <- "ON"
+    imuni$province[which(imuni$province == "Newfoundland")] <- "NL"
+    imuni$province[which(imuni$province == "Nova Scotia")] <- "NS"
+    imuni$province[which(imuni$province == "North Western Territories")] <- "NT"
+    imuni$province[which(imuni$province == "Prince Edward Island")] <- "PE"
+    imuni$province[which(imuni$province == "Quebec")] <- "QC"
+    imuni$province[which(imuni$province == "Saskatchewan")] <- "SK"
+    imuni$province[which(imuni$province == "Yukon")] <- "YT"
+    
+    gis$province[which(gis$province == "Ontario")] <- "ON"
+    gis$province[which(gis$province == "Alberta")] <- "AB"
+    gis$province[which(gis$province == "Manitoba")] <- "MB"
+    gis$province[which(gis$province == "British Columbia")] <- "BC"
+    gis$province[which(gis$province == "New Brunswick")] <- "NB"
+    gis$province[which(gis$province == "Ontario")] <- "ON"
+    gis$province[which(gis$province == "Newfoundland")] <- "NL"
+    gis$province[which(gis$province == "Nova Scotia")] <- "NS"
+    gis$province[which(gis$province == "North Western Territories")] <- "NT"
+    gis$province[which(gis$province == "Prince Edward Island")] <- "PE"
+    gis$province[which(gis$province == "Quebec")] <- "QC"
+    gis$province[which(gis$province == "Saskatchewan")] <- "SK"
+    gis$province[which(gis$province == "Yukon")] <- "YT"
+    
+    manuf$province[which(manuf$province == "Ontario")] <- "ON"
+    manuf$province[which(manuf$province == "Alberta")] <- "AB"
+    manuf$province[which(manuf$province == "Manitoba")] <- "MB"
+    manuf$province[which(manuf$province == "British Columbia")] <- "BC"
+    manuf$province[which(manuf$province == "New Brunswick")] <- "NB"
+    manuf$province[which(manuf$province == "Ontario")] <- "ON"
+    manuf$province[which(manuf$province == "Newfoundland")] <- "NL"
+    manuf$province[which(manuf$province == "Nova Scotia")] <- "NS"
+    manuf$province[which(manuf$province == "Northern Territories")] <- "NT"
+    manuf$province[which(manuf$province == "P E Island")] <- "PE"
+    manuf$province[which(manuf$province == "Quebec")] <- "QC"
+    manuf$province[which(manuf$province == "Saskatchewan")] <- "SK"
+    manuf$province[which(manuf$province == "Yukon")] <- "YT"
+    
+
+    
+  } 
+  
+  if (2 %in% aux){
+    imuni2$province[which(imuni2$province == "Ontario")] <- "ON"
+    imuni2$province[which(imuni2$province == "Alberta")] <- "AB"
+    imuni2$province[which(imuni2$province == "Manitoba")] <- "MB"
+    imuni2$province[which(imuni2$province == "British Columbia")] <- "BC"
+    imuni2$province[which(imuni2$province == "New Brunswick")] <- "NB"
+    imuni2$province[which(imuni2$province == "Ontario")] <- "ON"
+    imuni2$province[which(imuni2$province == "Newfoundland")] <- "NL"
+    imuni2$province[which(imuni2$province == "Nova Scotia")] <- "NS"
+    imuni2$province[which(imuni2$province == "North Western Territories")] <- "NT"
+    imuni2$province[which(imuni2$province == "Prince Edward Island")] <- "PE"
+    imuni2$province[which(imuni2$province == "Quebec")] <- "QC"
+    imuni2$province[which(imuni2$province == "Saskatchewan")] <- "SK"
+    imuni2$province[which(imuni2$province == "Yukon")] <- "YT"
+    
+    gis2$province[which(gis2$province == "Ontario")] <- "ON"
+    gis2$province[which(gis2$province == "Alberta")] <- "AB"
+    gis2$province[which(gis2$province == "Manitoba")] <- "MB"
+    gis2$province[which(gis2$province == "British Columbia")] <- "BC"
+    gis2$province[which(gis2$province == "New Brunswick")] <- "NB"
+    gis2$province[which(gis2$province == "Ontario")] <- "ON"
+    gis2$province[which(gis2$province == "Newfoundland")] <- "NL"
+    gis2$province[which(gis2$province == "Nova Scotia")] <- "NS"
+    gis2$province[which(gis2$province == "North Western Territories")] <- "NT"
+    gis2$province[which(gis2$province == "Prince Edward Island")] <- "PE"
+    gis2$province[which(gis2$province == "Quebec")] <- "QC"
+    gis2$province[which(gis2$province == "Saskatchewan")] <- "SK"
+    gis2$province[which(gis2$province == "Yukon")] <- "YT"
+    
+    manuf2$province[which(manuf2$province == "Ontario")] <- "ON"
+    manuf2$province[which(manuf2$province == "Alberta")] <- "AB"
+    manuf2$province[which(manuf2$province == "Manitoba")] <- "MB"
+    manuf2$province[which(manuf2$province == "British Columbia")] <- "BC"
+    manuf2$province[which(manuf2$province == "New Brunswick")] <- "NB"
+    manuf2$province[which(manuf2$province == "Ontario")] <- "ON"
+    manuf2$province[which(manuf2$province == "Newfoundland")] <- "NL"
+    manuf2$province[which(manuf2$province == "Nova Scotia")] <- "NS"
+    manuf2$province[which(manuf2$province == "Northern Territories")] <- "NT"
+    manuf2$province[which(manuf2$province == "P E Island")] <- "PE"
+    manuf2$province[which(manuf2$province == "Quebec")] <- "QC"
+    manuf2$province[which(manuf2$province == "Saskatchewan")] <- "SK"
+    manuf2$province[which(manuf2$province == "Yukon")] <- "YT"
+  
+  }
+
+
+# }
